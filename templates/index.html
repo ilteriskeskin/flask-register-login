@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+
+<h4>
+    <a href="/register">Kayıt ol</a>
+</h4>
+<h4>
+    <a href="/login">Giriş</a>
+</h4>
+
+<h5>
+    Hoşgeldin {{ session['email'] }}
+</h5>
+
+{% endblock body %}
